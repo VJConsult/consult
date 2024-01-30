@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VJ学术咨询工作室</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" class="titleLogo"href="pictures/logo.jpg" type="image/x-icon">
+
+</head>
+<body>
+    <div class="topPart">
+        <div class="topUper">
+            <img class="brandLogo"src="pictures/brand_logo.png">
+            <div class="orderNowContainer"><span class="orderNow" onclick="redirectToPage1()">立即下单</span></div>
+        </div>
+        <div class="topDown">
+            <div class="navButtonContainer">
+                <span class="navButton" onclick="redirectToPage0()">服务范围</span>
+                <span class="navButton" onclick="redirectToPage2()"> 服务价格</span>
+                <span class="navButton" onclick="redirectToPage3()">团队资质</span>
+                <span class="navButton" onclick="redirectToPage4()"> 退款政策</span>
+                <span class="navButton" onclick="redirectToPage5()">加入我们</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="medPart">
+        <div class="medTop"> 
+            <div class="titleContainer">
+            <h1 class="title">VJ学术咨询工作室<h1>
+            <h2 class="title1">-保姆式服务，让留学更简单-</h2>
+            </div>
+            <div class="servicesContainer">
+                <div class="services"><img class="servicesIcon" src="pictures/writing.jpg"><h3 class="servicesText">论文服务</h3></div>
+                <div class="services"><img class="servicesIcon" src="pictures/agency.jpg"><h3 class="servicesText">留学申请</h3></div>
+                <div class="services"><img class="servicesIcon" src="pictures/essay.jpg"><h3 class="servicesText">查重降重</h3></div>
+                <div class="services"><img class="servicesIcon" src="pictures/appeal.jpg"><h3 class="servicesText">学校申诉</h3></div>
+            </div>
+        </div>
+        <div class="ContentPart">
+            
+            <div class="promotionContainer"><p class="promotionText1">忙于社交没有时间写论文？想自己写论文完全没有思路无从下笔？使用ChatGPT担心AI率过高被警告？不要担心。咨询VJ工作室，13个全职和数十个兼职QS前50名校毕业生帮你解决论文烦恼，把更多宝贵的时间留给美好校园生活。</p><img class="promotionPic" src="pictures/manhua2.jpg"></div>
+            <div class="promotionContainer"><img class="promotionPic" src="pictures/manhua3.jpg"><p class="promotionText">想留学嫌大中介收费贵？不知道如何选择院校？咨询VJ工作室，申请美国，加拿大，英国，澳大利亚，新西兰，马来西亚等国家院校费用低至RMB 2K，没有offer全额退款！</p></div>
+            <div class="promotionContainer"><p class="promotionText1">使用ChatGPT导致Turnitin的AI重复率高？完成论文后不确定查重率是多少？本工作室提供论文查重服务，为你的论文润色降重，让你不再烦恼查重率！</p><img class="promotionPic" src="pictures/manhua1.jpg"></div>
+            <div class="promotionContainer"><img class="promotionPic" src="pictures/manhua4.jpg"><p class="promotionText">收到学校学术不端邮件？联系我们，帮你申诉。</p></div>
+            <div class="promotionContainer1">
+                <div class="services1"><img class="promoIcon" src="pictures/gurantee.jpg"><h3 class="t1">质量保障</h3><h4 class="promotext">专业人员100%手写</h4></div>
+                <div class="services1"><img class="promoIcon" src="pictures/time.jpg"><h3 class="t1">时效保障</h3><h4 class="promotext">按照约定时间准时交付客户</h4></div>
+                <div class="services1"><img class="promoIcon" src="pictures/teamquality.jpg"><h3 class="t1">专业团队</h3><h4 class="promotext">团队成员均有海外留学经验</h4></div>
+                <div class="services1"><img class="promoIcon" src="pictures/moneyback.jpg"><h3 class="t1">退款保障</h3><h4 class="promotext">满足条件全额退款</h4></div>
+            </div>
+            <div class="subjectsContainer"><h2>涵盖学科</h2><img class="subjectsPic" src="pictures/subjects.jpg"></div>
+            <div class="qandaContainer">
+                <h1 class="qanda">Q&A</h1>
+                <div class="question">
+                    <h2 class="question-title" onclick="toggleAnswer(this)">> 为什么VJ学术咨询工作室的价格略低于市场，可靠吗？</h2>
+                    <div class="answer">
+                      <p>我们目前是工作室形式运行，与其他大型中介和留学服务机构比起来成本更低所以价格略低于市场。我们注重顾客的权益，严格维护顾客利益。</p>
+                    </div>
+                  </div>
+                  
+                  <div class="question">
+                    <h2 class="question-title" onclick="toggleAnswer(this)">> 论文服务需要提供客户信息吗？</h2>
+                    <div class="answer">
+                      <p>不需要。对于论文服务客户仅需提供要求即可，我们不会搜集客户的信息。</p>
+                    </div>
+                  </div>
+
+                  <div class="question">
+                    <h2 class="question-title" onclick="toggleAnswer(this)">> 交付时间多长？</h2>
+                    <div class="answer">
+                      <p>对于论文服务交付时间默认7天，如果加急最快12小时。</p>
+                    </div>
+                  </div>
+
+                  <div class="question">
+                    <h2 class="question-title" onclick="toggleAnswer(this)">> 退款条件是什么？</h2>
+                    <div class="answer">
+                      <p>对于论文服务，如果成绩大于50%低于60%退款一半，低于50%全款返还。只需要提供成绩证明可申请退款。对于留学申请业务，如果没有收到offer全额退款。</p>
+                    </div>
+                  </div>
+
+                  <div class="question">
+                    <h2 class="question-title" onclick="toggleAnswer(this)">> 我向VJ学术工作室咨询论文，是否违反学术规定？</h2>
+                    <div class="answer">
+                      <p>VJ学术工作室对客户提供的咨询供客户参考，客户可以根据自己需求选择采纳多少，不违反学术规定。</p>
+                    </div>
+                  </div>
+
+                  <div class="question">
+                    <h2 class="question-title" onclick="toggleAnswer(this)">> 留学申请服务是否包含签证？</h2>
+                    <div class="answer">
+                      <p>我们只提供学校申请的服务，签证需要客户自己解决。</p>
+                    </div>
+                  </div>
+
+                  <div class="question">
+                    <h2 class="question-title" onclick="toggleAnswer(this)">> 是否有其他留学服务？</h2>
+                    <div class="answer">
+                      <p>目前VJ学术工作室仅提供以上4种服务，不提供其他任何学术服务。</p>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+      <p class="footerText">@2019-2024 VJ Consult. All rights reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
