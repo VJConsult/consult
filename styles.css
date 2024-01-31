@@ -158,6 +158,7 @@ html, body {
     display: flex;
     align-items: center;
     margin-bottom: 15%;
+    
 }
 
 .promotionPic{
@@ -475,11 +476,13 @@ th {
     }
     
     .promotionContainer{
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
         margin-top: 3%;
         display: flex;
         align-items: center;
         margin-bottom: 15%;
+       
     }
     
     .promotionPic{
@@ -639,6 +642,9 @@ th {
     width: 50%;
     height: 60%;
 }
+.servicesText{
+    font-size: 14px;
+}
     
     }
 
@@ -689,7 +695,7 @@ th {
         .navButton{
             background-color: none;
             border: none;
-            font-size: 12px;
+            font-size: 10px;
             margin: 0 16px;
             color: dark;
             cursor: pointer;
@@ -700,9 +706,6 @@ th {
         
         
         
-        .navButton:hover {
-            font-size: 18px; /* Set the desired font size when hovering */
-        }
         
         .navButtonContainer{
             display: flex;
@@ -804,11 +807,13 @@ th {
         }
         
         .promotionContainer{
-            width: 100%;
+            width: 90%;
+            margin-left: 5%;
             margin-top: 3%;
             display: flex;
             align-items: center;
             margin-bottom: 15%;
+    
         }
         
         .promotionPic{
