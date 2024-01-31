@@ -238,6 +238,7 @@ html, body {
   
 .answer {
     display: none;
+    font-size: 14px;
   }
 .qanda{
     margin-left: 40%;
@@ -298,12 +299,22 @@ th {
     margin-bottom: 10%;
 }
 
-.teamContainer{
-    width: 100%;
+.TeamPart{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
 }
-.teamPic{
+
+.teamContainer{
+    width: 20%;
+    text-align: center;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
+    flex-grow: 1;
+}
+.teamIcon{
+    width: 50%;
+    height: 60%;
 }
 
 }
@@ -549,6 +560,7 @@ th {
       
     .answer {
         display: none;
+        font-size: 12px;
       }
     .qanda{
         margin-left: 40%;
@@ -609,15 +621,24 @@ th {
         margin-bottom: 10%;
     }
     
-    .teamContainer{
-        width: 60%;
-        margin-left: 20%;
-    }
-    .teamPic{
-        width: 100%;
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
+    
+.TeamPart{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.teamContainer{
+    width: 20%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    flex-grow: 1;
+}
+.teamIcon{
+    width: 50%;
+    height: 60%;
+}
     
     }
 
@@ -861,13 +882,14 @@ th {
             cursor: pointer;
             color: 3a3a3a;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: 16px;
+            font-size: 14px;
             background-color: rgb(241, 222, 197);
             border-radius: 30%;
           }
           
         .answer {
             display: none;
+            font-size: 12px;
           }
         .qanda{
             margin-left: 40%;
@@ -929,14 +951,24 @@ th {
             margin-bottom: 10%;
         }
         
-        .teamContainer{
-            width: 60%;
-            margin-left: 20%;
-        }
-        .teamPic{
+        .TeamPart{
+            display: flex;
             width: 100%;
             margin-top: 30%;
-            margin-bottom: 70%;
+            margin-bottom: 30%;
         }
+        
+        .teamContainer{
+            width: 20%;
+            text-align: center;
+            margin-top: 10%;
+            margin-bottom: 20%;
+            flex-grow: 1;
+        }
+        .teamIcon{
+            width: 40%;
+            height: 50%;
+        }
+
         
         }
