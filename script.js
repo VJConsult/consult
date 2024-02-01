@@ -32,3 +32,20 @@ function  redirectToPage4(){
 function  redirectToPage5(){
   window.location.href="join-us.html";
 }
+
+let currentIndex = 0;
+const items = document.querySelectorAll('.carousel-item');
+const totalItems = items.length;
+
+function changeSlide() {
+    currentIndex = (currentIndex + 1) % totalItems; // 确保索引在范围内
+    updateCarousel();
+}
+
+function updateCarousel() {
+    const newTransformValue = -currentIndex * 100; // 计算新的位移
+    document.querySelector('.carousel-slide').style.transform = `translateX(${newTransformValue}%)`;
+}
+
+setInterval(changeSlide, 7000); // 设置自动切换的间隔时间为3秒
+

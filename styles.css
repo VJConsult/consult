@@ -328,6 +328,62 @@ th {
     width: 14%;
     height: 60%;
 }
+
+.carousel-container {
+    position: relative;
+    width: 20%;
+    margin-left: 40%;
+    height: 210px;
+    margin-bottom: 15%;
+    margin-top: -10%;
+    overflow: hidden;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20%;
+}
+
+.teamContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.memberIcon{
+    width: 10%;
+}
+.introduction{
+    background-color: antiquewhite;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%; /* 确保每个项目的宽度和容器一致 */
+    /* 在此添加更多样式，比如文本对齐等 */
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    /* 在此添加更多样式，比如大小、颜色等 */
+}
+
+.carousel-button.left {
+    left: 10px;
+}
+
+.carousel-button.right {
+    right: 10px;
+}
+
+
+/* 在此处添加更多自定义样式 */
+
 }
 
 
@@ -468,7 +524,7 @@ th {
     }
     
     .services{
-        width: 7%;
+        width: 9%;
         margin: 0 30px; /* 调整子元素之间的间距，根据需要调整具体数值 */
     }
     
@@ -664,6 +720,58 @@ th {
     }
 .servicesText{
     font-size: 14px;
+}
+
+.carousel-container {
+    position: relative;
+    width: 40%;
+    margin-left: 30%;
+    height: 120px;
+    margin-bottom: 20%;
+    margin-top: -10%;
+    overflow: hidden;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20%;
+}
+
+.teamContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.memberIcon{
+    width: 10%;
+}
+.introduction{
+    background-color: antiquewhite;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%; /* 确保每个项目的宽度和容器一致 */
+    /* 在此添加更多样式，比如文本对齐等 */
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    /* 在此添加更多样式，比如大小、颜色等 */
+}
+
+.carousel-button.left {
+    left: 10px;
+}
+
+.carousel-button.right {
+    right: 10px;
 }
     
     }
@@ -1007,6 +1115,59 @@ th {
 
         .tj{
             font-size: 13px;
+        }
+
+
+        .carousel-container {
+            position: relative;
+            width: 40%;
+            margin-left: 30%;
+            height: 16%;
+            margin-bottom: 20%;
+            margin-top: -10%;
+            overflow: hidden;
+            text-align: center;
+            background-color: antiquewhite;
+            border-radius: 20%;
+        }
+        
+        .teamContainer2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .memberIcon{
+            width: 10%;
+        }
+        .introduction{
+            background-color: antiquewhite;
+        }
+        
+        .carousel-slide {
+            display: flex;
+            width: 100%;
+            transition: transform 0.5s ease;
+        }
+        
+        .carousel-item {
+            min-width: 100%; /* 确保每个项目的宽度和容器一致 */
+            /* 在此添加更多样式，比如文本对齐等 */
+        }
+        
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            /* 在此添加更多样式，比如大小、颜色等 */
+        }
+        
+        .carousel-button.left {
+            left: 10px;
+        }
+        
+        .carousel-button.right {
+            right: 10px;
         }
 
         
