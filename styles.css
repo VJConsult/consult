@@ -91,7 +91,7 @@ html, body {
 }
 
 .medTop{
-    background-color: aqua;
+    background-color: rgb(14, 85, 216);
     text-align: center;
     justify-content: center;
     position: relative;
@@ -485,7 +485,7 @@ th {
     }
     
     .medTop{
-        background-color: aqua;
+        background-color: rgb(14, 85, 216);
         text-align: center;
         justify-content: center;
         position: relative;
@@ -878,7 +878,7 @@ th {
         }
         
         .medTop{
-            background-color: aqua;
+            background-color: rgb(14, 85, 216);
             text-align: center;
             justify-content: center;
             position: relative;
