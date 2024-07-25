@@ -50,6 +50,11 @@ html, body {
     color: white;
 }
 
+.JoinUsContainer{width: 50%;margin-left: 25%;display: flex; margin-bottom: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+.JoinUsPic{width: 50%; margin-top: 60px;}
 
 
 .navButton:hover {
@@ -261,10 +266,13 @@ html, body {
     margin-top: 5%;
 }
 .footer{
-    height: 3%;
+    height: 100px;
     width: 100%;
     background-color: #3a3a3a;
     bottom: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;display: flex;
 }
 .footerText{
     color: white;
@@ -302,6 +310,7 @@ th {
     width: 60%;
     margin-left: 20%;
     margin-bottom: 10%;
+    margin-top: 7%;
 }
 
 .TeamPart{
@@ -479,7 +488,6 @@ th {
     
     
     .medPart{
-    
        margin-top: 1%;
        justify-content: center;
     }
@@ -654,10 +662,13 @@ th {
         margin-top: 5%;
     }
     .footer{
-        height: 3%;
+        height: 100px;
         width: 100%;
         background-color: #3a3a3a;
         bottom: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;display: flex;
     }
     .footerText{
         color: white;
@@ -694,7 +705,8 @@ th {
     .priceContainer{
         width: 60%;
         margin-left: 20%;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
+        margin-top: 15% !important;
     }
     
     .TeamPart{
@@ -728,6 +740,12 @@ th {
 .servicesText{
     font-size: 14px;
 }
+
+.JoinUsContainer{width: 90%;margin-left: 5%;display: flex; margin-bottom: 200px;margin-top: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+.JoinUsPic{width: 50%; margin-top: 60px;}
 
 .carousel-container {
     position: relative;
@@ -870,7 +888,11 @@ th {
         }
         
         
-        
+        .JoinUsContainer{width: 90%;margin-left: 5%;display: flex; margin-bottom: 40%;margin-top: 30%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;}
+        .JoinUsPic{width: 50%;margin-top: 40px;}
         .medPart{
         
            margin-top: 1%;
@@ -1051,10 +1073,13 @@ th {
             margin-top: 5%;
         }
         .footer{
-            height: 3%;
+            height: 100px;
             width: 100%;
             background-color: #3a3a3a;
             bottom: 0;
+            text-align: center;
+            justify-content: center;
+            align-items: center;display: flex;
         }
         .footerText{
             color: white;
