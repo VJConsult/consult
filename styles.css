@@ -873,8 +873,8 @@ th {
         }
         
         .orderNowContainer{
-            width: 7%;
-            height: 3%;
+            width: 50px;
+            height: 15px;
             background-color: rgb(44, 225, 44);
             border-radius: 25px;
             right: 5%;
